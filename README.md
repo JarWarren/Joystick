@@ -1,6 +1,6 @@
 # Joystick
 
-*An 8-direcitonal joystick class that sends updates to a delegate. Drag and drop to install. Does not come with assets.*
+*An 8-directional joystick class that sends updates to a delegate. Drag and drop to install. Does not come with assets.*
 
 *I needed a joystick for a SpriteKit demo I was building and couldn't find anything online.*
 *I hope that by uploading it to github, someone else may be able to benefit from the way I implemented it - or perhaps even use it directly in their own project.*
@@ -17,7 +17,7 @@ The delegate is only notified when the direciton changes, so that the hero can r
 
 ### Installation
 1. Drag and drop both Swift files into your project.
-2. Add a `UIImageView` to your storyboard and sublcass it as a `Joystick`.
+2. Add a `UIImageView` to your storyboard and subclass it as a `Joystick`.
 3. Check the box that says `User Interaction Enabled`. (Or set `isUserInteractionEnabled = true` in Swift).
 4. Create an outlet and in `viewDidLoad()`, set your ViewController as the joystick's delegate.
 5. Conform to `JoystickDelegate`.
