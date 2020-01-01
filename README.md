@@ -22,4 +22,4 @@ The delegate is only notified when the direciton changes, so that the hero can r
 4. Create an outlet and in `viewDidLoad()`, set your ViewController as the joystick's delegate.
 5. Conform to `JoystickDelegate`.
 
-*Feel free to make any edits you want. (Ex. rotate a single asset instead of providing one for each direction.)*
+*No rights reserved. Feel free to make any edits you want, reproduce, share etc. (Ex. rotate a single asset instead of providing one for each direction.)*
